@@ -1,0 +1,6 @@
+com/imjustdoom/listener/ChatListener.class
+com/imjustdoom/listener/PlayerLeave.class
+com/imjustdoom/Main.class
+com/imjustdoom/listener/DiscordMessageListener.class
+com/imjustdoom/listener/PlayerJoin.class
+com/imjustdoom/listener/PlayerDeath.class
