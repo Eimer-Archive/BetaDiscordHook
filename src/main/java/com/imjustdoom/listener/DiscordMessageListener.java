@@ -13,7 +13,7 @@ public class DiscordMessageListener extends ListenerAdapter {
         if(!event.getMessage().getTextChannel().getId().equals(Main.INSTANCE.channel) || event.getAuthor().isBot()) return;
 
         for (Player player : Bukkit.getOnlinePlayers()) {
-            player.sendMessage("<" + event.getAuthor().getName() + "> " + event.getMessage().getContentRaw());
+            player.sendMessage("<[Discord] " + event.getAuthor().getName() + "> " + event.getMessage().getContentRaw());
         }
     }
 }
